@@ -6,5 +6,5 @@ export default defineConfig({
   plugins: [react()],
   // base will be set dynamically by GitHub Actions
   // For local dev, use '/'
-  base: process.env.GITHUB_ACTIONS ? '/unchai-mentor-page/' : '/',
+  base: process.env.GITHUB_ACTIONS ? '/UnchaAI-mentor-page/' : '/',
 })
